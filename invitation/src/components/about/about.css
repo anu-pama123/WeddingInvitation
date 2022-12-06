@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.bg-pink {
+    background-color: #e9ddd8;
+}
+.clear {
+    clear: both;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.row {
+    /* display: -ms-flexbox; */
+    display: flex;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.date {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+} 
+
+.bridegroom .item {
+    padding: 30px;
+    border-radius: 0px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.js .animate-box {
+    opacity: 0;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.bridegroom .toright .img {
+    float: right;
+}
+   
+.bridegroom .img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.bridegroom .toright .info {
+    margin-left: 0;
+    margin-right: 160px;
+    /* text-align: right; */
+}
+
+.bridegroom .info {
+    margin-left: 160px;
+}
+.valign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.bridegroom .info h6 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h6 {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+.bridegroom .info span {
+    color: #BD945A;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+}
+
+span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.bridegroom .info p {
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #888;
+    margin: 0 0 20px;
+}
+
+.js .animate-box {
+    opacity: 0;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.oliven-couple-title {
+    display: block;
+    position: relative;
+    top: 12px;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #BD945A;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+/* @media screen and (max-width: 991px)
+{.bridegroom .item, .bridegroom .toright .info {
+    text-align: center;
+}}
+
+@media screen and (max-width: 991px) {
+    .bridegroom .info {
+        margin: 30px 0 0 0 !important;
+    }
+} 
+
+@media screen and (max-width: 991px) {
+    .bridegroom .img {
+        margin: auto;
+        float: none !important;
+    }
+} 
+
+@media screen and (max-width: 991px) {
+    .oliven-couple-title {
+        font-size: 32px;
+        line-height: 1.2em;
+        margin-bottom: 15px;
+    }
+} */
+
+@media screen and (max-width: 991px) {
+    .oliven-couple-title {
+        font-size: 32px;
+        line-height: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .bridegroom .item, .bridegroom .toright .info {
+        text-align: center;
+    }
+    
+    .bridegroom .img {
+        margin: auto;
+        float: none !important;
+    }
+
+    .bridegroom .info {
+        margin: 30px 0 0 0 !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 2500px) { 
+    .bridegroom .item {
+        padding: 200px;
+    }
+
+    .col-md-6 {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .bridegroom .info span {
+        font-size: 30px;
+    }
+
+    .bridegroom .info h6 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .bridegroom .info p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .bridegroom .img {
+        width: 180px;
+        height: 180px;
+    }
+}

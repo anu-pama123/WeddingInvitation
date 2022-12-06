@@ -1,0 +1,32 @@
+.footer {
+    padding: 90px 30px;
+    background: #e9ddd8;
+}
+
+.footer img {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.footer h2 a span, .footer h2 span {
+    display: block;
+    /* font-family: 'Alex Brush'; */
+    font-weight: 580;
+    color: #000;
+}
+
+.info {
+    color: #3d3b3b !important;
+}
+
+@media screen and (max-width: 768px) {
+    .footer2 {
+        padding: 100px 30px 80px 30px;
+        text-align: center;
+    }
+}
